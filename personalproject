@@ -1,0 +1,35 @@
+DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="styles.css" rel="stylesheet" />
+        <title>My First Project</title>
+    </head>
+    <body>
+        <header>
+            <h2>This is the header</h2>
+            <img src="images/heart img.png">
+        </header>
+        <main>
+            <section id="bio"></section>
+                <div id="bio-choos">
+                <div id="name-date">
+                    <p>name</p>
+                    <p>date</p>
+                    </div>
+            <section id="tech"></section>
+            <ul>
+                list
+            </ul>
+            <section id="interest"></section>
+        </main>
+       
+        <footer>
+            <p class="bodyText">This is the footer</p>
+            <p id="copywrite">For Educational Purposes Only by 
+                Learning Components Research Group &copy;2022</p>
+        </footer>
+    </body>
+</html>
