@@ -7,25 +7,44 @@ DOCTYPE html>
         <link href="styles.css" rel="stylesheet" />
         <title>My First Project</title>
     </head>
+
     <body>
         <header>
-            <h2>This is the header</h2>
+            <h2>Technology Interest</h2>
             <img src="images/heart img.png">
         </header>
+
         <main>
-            <section id="bio"></section>
-                <div id="bio-choos">
+
+            <section id="bio">
+                <div id="bio-choose">
                 <div id="name-date">
-                    <p>name</p>
-                    <p>date</p>
+                    <p>Hannah Ramos</p>
+                    <p>02.09.22</p>
+                    <time datetime="2022-02-09">02.09.222</time>
                     </div>
-            <section id="tech"></section>
+            <div id="list">
+            <p class="variableSizeText">Why am I learning web development?</p>
             <ul>
-                list
-            </ul>
-            <section id="interest"></section>
+               <li>1</li>
+               <li>2</li>
+               <li>3</li>
+               <li>4</li>
+               <li>5</li>
+             </ul>
+             </div>
+             </div>
+            </section>
+
+            <section id="icons">
+                <p>pictures and captions using figure and figure cpation</p>
+            </section>
+
+            <section id="interest">
+            <p>interest section stuff? this includes the images i think?</p>
+            </section>
         </main>
-       
+
         <footer>
             <p class="bodyText">This is the footer</p>
             <p id="copywrite">For Educational Purposes Only by 

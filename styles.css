@@ -27,9 +27,12 @@ main {
     background-color: cornflowerblue;
     height: 300px;
 }
-#tech {
+#list {
     background-color: crimson;
     height: 300px;
+}
+#icons {
+    background-color: blueviolet;
 }
 #interest {
     background-color: yellow;
