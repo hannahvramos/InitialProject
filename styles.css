@@ -6,10 +6,10 @@ body {
     width: 960px;
     margin: 0 auto;
     background-color: darkgrey;
-    border: 1px solid #ffffff;
+    border: 1px solid black;
 }
 header {
-    border: solid lightyellow;
+    border: solid black;
     margin: 0 auto;
     text-align: center;
 }
@@ -20,25 +20,37 @@ header img {
 }
 main {
     /* height: 100vh; */
-    border: 1px white;
-    background-color: lightyellow;
+    border: 1px black;
+    background-color: darkgrey;
 }
 #bio {
-    background-color: lightyellow;
+    background-color: darkgrey;
     height: 300px;
 }
 #list {
-    background-color: lightyellow;
+    background-color: tan;
     height: 300px;
 }
 #icons {
-    background-color: black;
+    background-color: tan;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  figure {
+    width: 10rem;
+    text-align: center;
+    font-size: small;
+  }
+  
+  figure img{
+    height: 10rem;
 }
 #interest {
-    background-color: lightyellow;
+    background-color: darkgray;
     height: 300px;
 }
 #copywrite {
     color: rgb(50, 50, 205); 
-    background-color: lightyellow;
+    background-color: tan;
 }
