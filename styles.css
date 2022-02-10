@@ -5,11 +5,11 @@
 body {
     width: 960px;
     margin: 0 auto;
-    background-color: grey;
+    background-color: darkgrey;
     border: 1px solid #ffffff;
 }
 header {
-    border: solid darkgreen;
+    border: solid lightyellow;
     margin: 0 auto;
     text-align: center;
 }
@@ -20,25 +20,25 @@ header img {
 }
 main {
     /* height: 100vh; */
-    border: 1px blue solid;
-    background-color: aquamarine;
+    border: 1px white;
+    background-color: lightyellow;
 }
 #bio {
-    background-color: cornflowerblue;
+    background-color: lightyellow;
     height: 300px;
 }
 #list {
-    background-color: crimson;
+    background-color: lightyellow;
     height: 300px;
 }
 #icons {
-    background-color: blueviolet;
+    background-color: black;
 }
 #interest {
-    background-color: yellow;
+    background-color: lightyellow;
     height: 300px;
 }
 #copywrite {
     color: rgb(50, 50, 205); 
-    background-color: chartreuse;
+    background-color: lightyellow;
 }
