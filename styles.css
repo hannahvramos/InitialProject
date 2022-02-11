@@ -1,56 +1,92 @@
+:root{
+    --main-gray: #222223;
+    --main-tan: #bfa489;
+}
 * {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: var(--main-gray);
 }
 body {
     width: 960px;
     margin: 0 auto;
-    background-color: darkgrey;
-    border: 1px solid black;
+    background-color: var(--main-gray);
 }
 header {
-    border: solid black;
-    margin: 0 auto;
+    border: 3px solid gold;
     text-align: center;
+    color: white;
+    padding: 1%;
 }
 header img {
-    display: block;
-    margin: 0 auto;
-    height: 90px;
+    margin: .3rem auto;
+    height: 60px;
+    display: flex;
 }
-main {
-    /* height: 100vh; */
-    border: 1px black;
-    background-color: darkgrey;
+section {
+    margin: 2rem 0;
 }
 #bio {
-    background-color: darkgrey;
-    height: 300px;
+    display: flex;
 }
-#list {
-    background-color: tan;
-    height: 300px;
+#name-date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .4rem;
+    font-size: larger;
+}
+#bio-choose {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+#choose-list {
+    font-weight: 90;
+    padding: .3rem;
+    border: 3px solid #e64dab;
+}
+#choose-list h4 {
+    margin-left: 1.45rem;
 }
 #icons {
-    background-color: tan;
     display: flex;
     justify-content: space-between;
   }
-  
-  figure {
+figure {
     width: 10rem;
     text-align: center;
     font-size: small;
   }
-  
-  figure img{
+figure img {
     height: 10rem;
 }
+figcaption {
+    background-color: rgba(207, 169, 127, 0.7);
+    padding: 0.6rem;
+    position: relative;
+    bottom: 1.3rem;
+}
 #interest {
-    background-color: darkgray;
     height: 300px;
 }
+.interestborder {
+    border: 3px solid #8cc84b;
+    padding: 0.6rem;
+}
+h4 {
+    color: var(--main-tan);
+    margin-bottom: .3rem;
+}
+h2 {
+    margin-bottom: .3rem;
+}
+footer {
+    text-align: center;
+}
 #copywrite {
-    color: rgb(50, 50, 205); 
-    background-color: tan;
+    color: var(--main-gray); 
+    background-color: var(--main-tan);
 }
